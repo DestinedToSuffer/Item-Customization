@@ -1,0 +1,33 @@
+name: ItemCustomization
+version: '${project.version}'
+main: co.vangar.itemcustomization.ItemCustomization
+api-version: 1.18
+authors: [ Destined ]
+description: Customize the item in hand with custom names and lore at the cost of xp!
+website: https://vangar.co/
+
+commands:
+  setname:
+    aliases: [sn]
+    description: Set the name of the item in hand at the cost of xp
+    permission: setname.use
+  setlore:
+    aliases: [sl]
+    description: Set the lore of the item in hand at the cost of xp
+    permission: setlore.use
+  glow:
+    aliases: [g]
+    description: Give your item a glow effect
+    permission: glow.use
+  resetname:
+    aliases: [rn]
+    description: Reset name to default name with refunded xp
+    permission: resetname.use
+  resetlore:
+    aliases: [rl]
+    description: Reset lore to empty with refunded xp
+    permission: resetlore.use
+  resetglow:
+    aliases: [rg]
+    description: Reset the glow effect with some refunded xp
+    permission: resetglow.use

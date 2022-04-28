@@ -1,0 +1,18 @@
+SetName:
+  requiresExp: true
+  expRequired: 4
+SetLore:
+  requiresExp: true
+  expRequired: 4
+Glow:
+  requiresExp: true
+  expRequired: 2
+ResetLore:
+  refund: true
+  expRefunded: 2
+ResetName:
+  refund: true
+  expRefunded: 2
+ResetGlow:
+  refund: false
+  expRefunded: 1
