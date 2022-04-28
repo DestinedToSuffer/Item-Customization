@@ -4,14 +4,14 @@ This is a recreate of my first every minecraft plugin. I have not created plugin
 
 https://www.spigotmc.org/resources/item-customization.101675/
 
-##Installation
+### Installation
 1. Spigot 1.18.x
 2. Download the ItemCustomization-1.1
 3. Move into plugins folder
 4. Edit the config as you see fit!
 
 
-## Commands
+### Commands
 /setname [name]
   -  Description: Change the name of your item at the cost of xp
   -  Permission: setname.use
@@ -37,7 +37,7 @@ https://www.spigotmc.org/resources/item-customization.101675/
   - Permission: resetglow.use
 
 
-## Default Config
+### Default Config
 ```
 SetName:
   - requiresExp: true
