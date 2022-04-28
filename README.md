@@ -1,4 +1,4 @@
-##About The Project
+## About The Project
 
 This is a recreate of my first every minecraft plugin. I have not created plugins in a long time and wanted to start with something simple. If you think something needs changing or additions please let me know! Plan to create more plugins and get back into plugin creation!
 
@@ -11,7 +11,7 @@ https://www.spigotmc.org/resources/item-customization.101675/
 4. Edit the config as you see fit!
 
 
-##Commands
+## Commands
 /setname [name]
   -  Description: Change the name of your item at the cost of xp
   -  Permission: setname.use
@@ -37,7 +37,7 @@ https://www.spigotmc.org/resources/item-customization.101675/
   - Permission: resetglow.use
 
 
-##Default Config
+## Default Config
 ```
 SetName:
   - requiresExp: true
